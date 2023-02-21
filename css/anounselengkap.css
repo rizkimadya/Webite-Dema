@@ -1,0 +1,148 @@
+*{
+    font-family: poppins;
+}
+.navbar{
+    background-color: #A71C19;
+    color: #fff;
+}
+.navbar span{
+    font-weight: 600;
+    font-size: 16px;
+    padding-left: 10px;
+}
+.navbar .collapse ul li a{
+    color: #fff;
+    font-size: 18px;
+}
+.navbar .collapse ul li a.active{
+    color: #fff;
+    font-weight: 700;
+}
+.navbar .collapse .dropdown-menu li a{
+    color: #A71C19;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+/* hero */
+.hero{
+    background: url(../img/bgutama.png) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 30vh;
+}
+/* akhir hero */
+
+
+/* detail pemgumuman */
+#detail{
+    margin-top: 70px;
+}
+#detail .title{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+#detail .subtitle{
+    font-size: 16px;
+    font-weight: 400;
+    color: #A4A4A4;
+    margin-bottom: 72px;
+}
+#detail button{
+    background-color: #A71C19;
+    border: none;
+    color: #fff;
+    padding: 10px 34px;
+    border-radius: 24px;
+    font-size: 16px;
+    transition: all ease-in-out 0.3s;
+}
+#detail button:hover{
+    background-color: #000;
+    transition: all ease-in-out 0.7s;
+}
+/* akhir detail pengumuman */
+
+
+/* pengumuman */
+#pengumuman{
+    background-color: #fff;
+    margin-top: 50px;
+}
+#pengumuman .title h1{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #A71C19;
+}
+#pengumuman .deskripsi .card{
+    border: none;
+}
+.deskripsi .card{
+    background-color: #fff;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+    padding: 26px;
+    height: 100%;
+}
+.cards{
+    max-height: fit-content;
+}
+.deskripsi .card p{
+    font-size: 11px;
+    font-weight: 300;
+}
+.deskripsi .card h1{
+    font-size: 20px;
+    color: #000;
+    font-weight: 600;
+}
+.deskripsi .card h4{
+    font-size: 12px;
+    margin-top: 10px;
+    color: #A4A4A4;
+    display: flex;
+}
+.deskripsi .card .card-selengkapnya a{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 300;
+    margin-top: 26px;
+    color: #A71C19;
+}
+
+/* akhir pengumuman */
+
+
+/* kontak */
+#kontak{
+    color: #fff;
+    margin-top: 80px;
+    background-color: #A71C19;
+    padding-bottom: 50px;
+}
+#kontak h1{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-size: 32px;
+    font-weight: 600;
+}
+#kontak img{
+    width: 50px;
+}
+#kontak a{
+    text-decoration: none;
+    color:#fff;
+}
+/* akhir kontak */
+
+/* footer */
+#footer p{
+    color: #A71C19;
+    font-weight: 600;
+}
+/* akhr footer */

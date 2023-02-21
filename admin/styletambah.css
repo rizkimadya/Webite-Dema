@@ -1,0 +1,86 @@
+*{
+    font-family: poppins;
+    width: auto;
+    margin: 0;
+    padding: 0;
+}
+html{
+    contain: layout;
+}
+/* dashbord */
+#dashbord .bar{
+    background-color: #EF3B2D;
+    height: 1000px;
+}
+.bar img{
+    width: 150px;
+}   
+.bar h1{
+    font-size: 22px;
+    color: #fff;
+}
+.bar hr{
+    color: #fff;
+}
+.bar a{
+    text-decoration: none;
+    color: #fff;
+    transition: all ease-in-out 0.3s;
+}
+.bar i{
+    padding-right: 16px;
+}
+.bar a:hover{
+    background-color: #fff;
+    font-weight: 600;
+    border-radius: 4px;
+    padding: 10px 30px;
+    color: #EF3B2D;
+    transition: all ease-in-out 0.3s;
+}
+a.active{
+    background-color: #fff;
+    font-weight: 600;
+    border-radius: 4px;
+    padding: 10px 30px;
+    color: #EF3B2D;
+    transition: all ease-in-out 0.3s;
+}
+/* akhir dashbord */
+
+.form_regis{
+    color: #fff;
+    padding-left: 40px;
+    padding-bottom: 40px;
+}
+.form_regis h1{
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.form_regis input{
+    border-radius: 20px;
+    padding: 11px;
+}
+.form_regis input::placeholder{
+    padding-left: 14px;
+}
+.btn{
+    width: 100%;
+}
+
+
+/* content */
+.content{
+    background-color: #1A202C;
+}
+.content h1{
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+/* akhir content */
+

@@ -1,0 +1,87 @@
+*{
+    font-family: poppins;
+}
+.navbar{
+    background-color: #A71C19;
+    color: #fff;
+}
+.navbar span{
+    font-weight: 600;
+    font-size: 16px;
+    padding-left: 10px;
+}
+.navbar .collapse ul li a{
+    color: #fff;
+    font-size: 18px;
+}
+.navbar .collapse ul li a.active{
+    color: #fff;
+    font-weight: 700;
+}
+.navbar .collapse .dropdown-menu li a{
+    color: #A71C19;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+/* hero */
+.hero{
+    background: url(../img/bgutama.png) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 30vh;
+}
+/* akhir hero */
+
+
+/* visi misi */
+#profile h1{
+    color: #A71C19;
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 40px;
+}
+#profile .card{
+    background-color: #fff;
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, 20%);
+    border:none;
+}
+#profile .visi{
+    margin-bottom: 50px;
+}
+#profile .card h4{
+    font-size: 32px;
+    padding-top: 16px;
+    font-weight: 600;
+}
+/* akhir visi misi */
+
+
+/* kontak */
+#kontak{
+    color: #fff;
+    margin-top: 80px;
+    background-color: #A71C19;
+    padding-bottom: 50px;
+}
+#kontak h1{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-size: 32px;
+    font-weight: 600;
+}
+#kontak img{
+    width: 50px;
+}
+#kontak a{
+    text-decoration: none;
+    color:#fff;
+}
+/* akhir kontak */
+
+/* footer */
+#footer p{
+    color: #A71C19;
+    font-weight: 600;
+}
+/* akhr footer */

@@ -1,0 +1,108 @@
+*{
+    font-family: poppins;
+    width: auto;
+}
+body{
+    contain: layout;
+}
+/* dashbord */
+#dashbord .bar{
+    background-color: #EF3B2D;
+    height: 100vh;
+}
+.bar img{
+    width: 150px;
+}   
+.bar h1{
+    font-size: 22px;
+    color: #fff;
+}
+.bar hr{
+    color: #fff;
+}
+.bar a{
+    text-decoration: none;
+    color: #fff;
+    transition: all ease-in-out 0.3s;
+}
+.bar i{
+    padding-right: 16px;
+}
+.bar a:hover{
+    background-color: #fff;
+    font-weight: 600;
+    border-radius: 4px;
+    padding: 10px 30px;
+    color: #EF3B2D;
+    transition: all ease-in-out 0.3s;
+}
+a.active{
+    background-color: #fff;
+    font-weight: 600;
+    border-radius: 4px;
+    padding: 10px 30px;
+    color: #EF3B2D;
+    transition: all ease-in-out 0.3s;
+}
+/* akhir dashbord */
+
+
+/* content */
+.content{
+    background-color: #1A202C;
+}
+.content h1{
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 40px;
+}
+.artikel{
+    background-color: #1A202C;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.15);
+    color: #fff;
+}
+.pengumuman{
+    background-color: #1A202C;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.15);
+    color: #fff;
+}
+.total{
+    background-color: #1A202C;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.15);
+    color: #fff;
+}
+.card h1{
+    color: #fff;
+    font-weight: 600;
+}
+.card h4{
+    font-weight: 600;
+    font-size: 24px;
+}
+.card{
+    transition: all ease-in-out 0.3s;
+}
+.card:hover{
+    background-color: transparent;
+    border:2px solid #fff;
+    transition: all ease-in-out 0.3s;
+}
+/* akhir content */
+
+/* jam */
+.content #jam{
+    background-color: #EF3B2D;
+    display: flex;
+    justify-content: center;
+    padding: 20px 50px;
+    font-size: 34px;
+    color: #fff;
+    font-weight: 600;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    margin-bottom: 40px;
+}
+
+/* akhir jam */

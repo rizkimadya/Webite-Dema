@@ -1,0 +1,120 @@
+*{
+    font-family: poppins;
+}
+.navbar{
+    background-color: #A71C19;
+    color: #fff;
+}
+.navbar span{
+    font-weight: 600;
+    font-size: 16px;
+    padding-left: 10px;
+}
+.navbar .collapse ul li a{
+    color: #fff;
+    font-size: 18px;
+}
+.navbar .collapse ul li a.active{
+    color: #fff;
+    font-weight: 700;
+}
+.navbar .collapse .dropdown-menu li a{
+    color: #A71C19;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+/* hero */
+.hero{
+    background: url(../img/bgutama.png) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 30vh;
+}
+/* akhir hero */
+
+
+/* bidang */
+#bidang{
+    margin-top: 50px;
+}
+#bidang h1{
+    color: #A71C19;
+    font-size: 40px;
+    font-weight: 600;
+    padding: 10px 0px 20px 0px;
+}
+#bidang .card{
+    align-self: center;
+    display: flex;
+    margin: auto;
+    margin-bottom: 60px;
+    width: 321px;
+    height: 428px;
+    border: none;
+    border-radius: 20px;
+    background-color: #000;
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, 30%);
+    transition: all ease-in-out 0.3s;
+}
+#bidang .card:hover{
+    background-color: #000;
+    padding: 16px;
+    transition: all ease-in-out 0.3s;
+}
+#bidang .card img{
+    display: flex;
+    margin: auto;
+    width: 218px;
+    margin-bottom: -1px;
+}
+#bidang .card_title{
+    background-color: #fff;
+    padding: 16px;
+    border-radius: 0px 0px 20px 20px;
+    border: none;
+}
+#bidang .card_title h4{
+    color: #A71C19;
+    font-size: 20px;
+    font-weight: 600;
+}
+#bidang .card_title p{
+    color: #000;
+    font-size: 16px;
+    margin-top: -6px;
+    font-weight: 600;
+}
+/* akhir bidang */
+
+
+
+
+/* kontak */
+#kontak{
+    color: #fff;
+    margin-top: 80px;
+    background-color: #A71C19;
+    padding-bottom: 50px;
+}
+#kontak h1{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-size: 32px;
+    font-weight: 600;
+}
+#kontak img{
+    width: 50px;
+}
+#kontak a{
+    text-decoration: none;
+    color:#fff;
+}
+/* akhir kontak */
+
+/* footer */
+#footer p{
+    color: #A71C19;
+    font-weight: 600;
+}
+/* akhr footer */
